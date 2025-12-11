@@ -1,6 +1,6 @@
-**Amazon Prime Content Analysis Dashboard**
+**AMAZON PRIME CONTENT ANALYSIS DASHBOARD**
 
-Project Overview
+**Project Overview**
 
 This repository features an interactive dashboard created to analyze the content library of Amazon Prime Video. 
 It provides key insights into the distribution, performance, and trends of their movies and TV shows to help understand the platform's content strategy and viewer engagement.
