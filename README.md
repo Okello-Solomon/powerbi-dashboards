@@ -28,6 +28,8 @@ The analysis is based on a publicly available dataset of Amazon Prime Movies and
 
 </details>
 
+![image alt](https://github.com/Okello-Solomon/powerbi-dashboards/blob/a2538480c2a5b67707b3fc48bef55c128e566cff/Amazon%20Prime%20Videos.pbix.png)
+
 
 #  BMW Car Sales Classification Dashboard: Driving Performance Analysis
 
