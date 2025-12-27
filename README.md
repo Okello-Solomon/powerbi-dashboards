@@ -1,4 +1,4 @@
-#  Amazon Prime Content Analysis Dashboard
+#  1. Amazon Prime Content Analysis Dashboard
 
 ##  Project Overview
 
@@ -31,7 +31,7 @@ The analysis is based on a publicly available dataset of Amazon Prime Movies and
 ![image alt](https://github.com/Okello-Solomon/powerbi-dashboards/blob/a2538480c2a5b67707b3fc48bef55c128e566cff/Amazon%20Prime%20Videos.pbix.png)
 
 
-#  BMW Car Sales Classification Dashboard: Driving Performance Analysis
+#  2. BMW Car Sales Classification Dashboard: Driving Performance Analysis
 
 ##  Project Overview
 
@@ -54,7 +54,7 @@ The dashboard provides immediate visibility into the overall scale and health of
 
 The dashboard utilizes advanced **Field Parameters** to allow users to fully customize the analysis within core visualizations, drastically speeding up root cause and comparative analysis.
 
-### 1. Dynamic Measures (X-Axis Selection)
+###  Dynamic Measures (X-Axis Selection)
 
 Users can select the quantitative measure displayed on the X-axis of key charts, allowing them to compare the same dimension across different financial and operational metrics.
 
@@ -64,7 +64,7 @@ Users can select the quantitative measure displayed on the X-axis of key charts,
 - **Average Price (USD):** Strategic comparison of average selling price  
 - **Average Mileage (KM):** Operational comparison of average vehicle use/condition  
 
-### 2. Dynamic Dimensions (Y-Axis / Category Selection)
+###  Dynamic Dimensions (Y-Axis / Category Selection)
 
 Users can select the categorical dimension used to group and segment data on the Y-axis, enabling deep dives into product features, market performance, and sales outcomes.
 
@@ -89,7 +89,7 @@ Users can select the categorical dimension used to group and segment data on the
 ![image alt](https://github.com/Okello-Solomon/powerbi-dashboards/blob/524ee74c2f7326834c631bb1629a0f78d0e6a59c/BMW%20Car%20Sales%20Dashboard..png)
 
 
-#  Global Airline Operations & Passenger Insights Dashboard (2022)
+#  3. Global Airline Operations & Passenger Insights Dashboard (2022)
 
 ##  Project Overview
 
@@ -114,7 +114,7 @@ The dashboard provides immediate visibility into the overall scale and health of
 
 The dashboard leverages advanced **Field Parameters** and **DAX logic** to enable users to dynamically explore multiple analytical perspectives within a limited visual footprint.
 
-### 1. Dynamic Metrics (Y-Axis Selection)
+###  Dynamic Metrics (Y-Axis Selection)
 
 Users can select the quantitative metric displayed on the Y-axis, allowing the same visual to answer different operational and demographic questions.
 
@@ -125,7 +125,7 @@ Users can select the quantitative metric displayed on the Y-axis, allowing the s
 - **Delay Rate (%):** Assess punctuality challenges  
 - **On-Time Rate (%):** Monitor operational reliability  
 
-### 2. Dynamic Dimensions (X-Axis Selection)
+###  Dynamic Dimensions (X-Axis Selection)
 
 Users can dynamically change how data is grouped on the X-axis to compare performance across key categorical dimensions.
 
