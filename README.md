@@ -84,6 +84,8 @@ Users can select the categorical dimension used to group and segment data on the
 
 </details>
 
+![image alt](https://github.com/Okello-Solomon/powerbi-dashboards/blob/524ee74c2f7326834c631bb1629a0f78d0e6a59c/BMW%20Car%20Sales%20Dashboard..png)
+
 
 #  Global Airline Operations & Passenger Insights Dashboard (2022)
 
