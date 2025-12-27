@@ -29,17 +29,17 @@ The analysis is based on a publicly available dataset of Amazon Prime Movies and
 </details>
 
 
-# 🚗 BMW Car Sales Classification Dashboard: Driving Performance Analysis
+#  BMW Car Sales Classification Dashboard: Driving Performance Analysis
 
-## 🎯 Project Overview
+##  Project Overview
 
 This interactive dashboard was developed to provide a comprehensive, data-driven analysis of BMW vehicle sales performance, focusing on classifying sales into **“High”** or **“Low”** volume categories.  
 The primary objective is to equip sales managers and strategists with powerful, flexible tools to optimize inventory, pricing, and regional market focus.
 
 <details>
-<summary><strong>📖 View Project Details</strong></summary>
+<summary><strong> View Project Details</strong></summary>
 
-## 📊 Key Performance Indicators (KPIs)
+##  Key Performance Indicators (KPIs)
 
 The dashboard provides immediate visibility into the overall scale and health of the sales operation:
 
@@ -48,7 +48,7 @@ The dashboard provides immediate visibility into the overall scale and health of
 - **Average Selling Price:** $75,035 USD  
 - **Average Mileage:** 100,307 KM  
 
-## 🔍 Core Analytical Capabilities: Flexible, Segmented Visualizations
+##  Core Analytical Capabilities: Flexible, Segmented Visualizations
 
 The dashboard utilizes advanced **Field Parameters** to allow users to fully customize the analysis within core visualizations, drastically speeding up root cause and comparative analysis.
 
@@ -74,11 +74,11 @@ Users can select the categorical dimension used to group and segment data on the
 - **Sales_Classification:** Analyze the factors driving “High” versus “Low” performance  
 - **Transmission:** Segment performance by Manual vs. Automatic transmission  
 
-## 🛠️ Tools Used
+##  Tools Used
 - **Visualization Platform:** Power BI  
 - **Modeling Language:** DAX (Data Analysis Expressions) for creating robust measures and Field Parameters that enable dynamic functionality  
 
-## 📂 Data Source
+##  Data Source
 - **Dataset:** BMW_Car_Sales_Classification.csv  
 - **Source:** [BMW Car Sales Dataset on Kaggle](https://www.kaggle.com/datasets/sumedh1507/bmw-car-sales-dataset)
 
