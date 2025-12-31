@@ -173,3 +173,9 @@ Across all continents, flight outcomes are split almost evenly (~33% On-Time, De
 
 ![image alt](https://github.com/Okello-Solomon/powerbi-dashboards/blob/73066b52c6371268552c6462cb580233f7a54b7f/Superstore%20Performance%20Dashboard%201.PNG)
 
+
+
+![image alt](https://github.com/Okello-Solomon/powerbi-dashboards/blob/83778914d678aaed0f71945ed1a3345f89ae48a0/Superstore%20Performance%20Dashboard%202.PNG)
+
+
+
