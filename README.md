@@ -296,7 +296,7 @@ Data Transformation: Power Query (cleaning, normalization, date table creation)
 
 
 
-![image alt](https://github.com/Okello-Solomon/powerbi-dashboards/blob/83778914d678aaed0f71945ed1a3345f89ae48a0/Superstore%20Performance%20Dashboard%202.PNG)
+![image alt](https://github.com/Okello-Solomon/powerbi-dashboards/blob/a58020beb68fa5ebea0d29af93ff1e5077eba892/Superstore%20Performance%20Dashboard%202.PNG)
 
 
 
