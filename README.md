@@ -290,6 +290,8 @@ Data Transformation: Power Query (cleaning, normalization, date table creation)
 **Source:** [Superstore Dataset on Kaggle](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)  
 
 </details>
+
+
 ![image alt](https://github.com/Okello-Solomon/powerbi-dashboards/blob/73066b52c6371268552c6462cb580233f7a54b7f/Superstore%20Performance%20Dashboard%201.PNG)
 
 
