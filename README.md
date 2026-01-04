@@ -307,7 +307,7 @@ Visualization Platform: Power BI Desktop
 
 This repository features an interactive Power BI dashboard built to analyze performance, participation, and representation at the Paris 2024 Summer Olympic Games.
 
-Using the official Paris 2024 Kaggle dataset, the dashboard goes beyond medal tables to uncover structural, organizational, and social dynamics of the Games—focusing on gender parity, technical leadership, and national specialization strategies.
+Using the official Paris 2024 Kaggle dataset, the dashboard goes beyond medal tables to uncover structural, organizational, and social dynamics of the Games focusing on gender parity, technical leadership, and national specialization strategies.
 
 Paris 2024 was branded as the first gender-equal Olympics.
 This project evaluates how that ambition translated from athlete quotas into coaching, officiating, and competitive outcomes.
@@ -386,7 +386,7 @@ This visualization highlights a clear gender gap in technical leadership, with m
 ### 4. Distribution of Technical Officials
 The visualization indicates that men constitute 652 technical officials (63.86%), making up nearly two-thirds of the total, while women account for 369 officials (36.14%), representing just over one-third. This distribution highlights a noticeable gender imbalance in technical officiating roles, with male participation remaining dominant.
 
-### 5. 
+### 5. Total Teams by Discipline 
 This chart shows the distribution of teams across selected disciplines at the Paris 2024 Olympic Summer Games.
 Swimming records the highest participation (371 teams), followed by Rowing (158) and Athletics (142). Other disciplines such as Canoe Sprint, Tennis, Sailing, and Cycling Track etc show lower participation.
 
@@ -400,13 +400,14 @@ DAX (Measures, Field Parameters)
 
 Interactive Tooltips
 
-📂 Data Source
+### Data Source
 
 The analysis is based on the Paris 2024 Olympic Dataset:
 
-Paris 2024 Olympic Games Dataset (Kaggle)
+**Source:** [Paris 2024 Olympic Summer Games](https://www.kaggle.com/datasets/piterfm/paris-2024-olympic-summer-games)
 
-Key fields include: athlete, gender, country (NOC), sport, discipline, event, medal, coach, official role.
+![image alt](https://github.com/Okello-Solomon/powerbi-dashboards/blob/a58020beb68fa5ebea0d29af93ff1e5077eba892/Superstore%20Performance%20Dashboard%202.PNG)
+
 
 
 
