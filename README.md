@@ -356,12 +356,12 @@ These KPIs frame the Olympics as both a global sporting event and a large-scale 
 ### 1. Dynamic Analysis: The "Multi-Dimensional" Explorer
 To allow for deep exploration of the Paris 2024 results, I implemented Dynamic Field Parameters. This allows the user to toggle the entire dashboard’s view instantly across different categories.
 
-#### X-Axis:**
+#### X-Axis:
 
 - **Total Medals:** The core volume metric.
 
 
-#### Y-Axis (Dynamic Selection):** The viewer can switch the Y-Axis to analyze medal distribution by:
+#### Y-Axis (Dynamic Selection): The viewer can switch the Y-Axis to analyze medal distribution by:
 
 - **Discipline:** Which sports are most "top-heavy" with medals?
 
@@ -405,6 +405,8 @@ Interactive Tooltips
 The analysis is based on the Paris 2024 Olympic Dataset:
 
 **Source:** [Paris 2024 Olympic Summer Games](https://www.kaggle.com/datasets/piterfm/paris-2024-olympic-summer-games)
+
+</details>
 
 ![image alt](https://github.com/Okello-Solomon/powerbi-dashboards/blob/a58020beb68fa5ebea0d29af93ff1e5077eba892/Superstore%20Performance%20Dashboard%202.PNG)
 
