@@ -300,3 +300,113 @@ Visualization Platform: Power BI Desktop
 
 
 
+ # 5. Paris 2024 Olympic Performance Analytics Dashboard
+
+ 
+## Project Overview
+
+This repository features an interactive Power BI dashboard built to analyze performance, participation, and representation at the Paris 2024 Summer Olympic Games.
+
+Using the official Paris 2024 Kaggle dataset, the dashboard goes beyond medal tables to uncover structural, organizational, and social dynamics of the Games—focusing on gender parity, technical leadership, and national specialization strategies.
+
+Paris 2024 was branded as the first gender-equal Olympics.
+This project evaluates how that ambition translated from athlete quotas into coaching, officiating, and competitive outcomes.
+
+<details> <summary><strong>View Project Details</strong></summary>
+
+  
+## Project Objective
+
+To design a narrative-driven analytics dashboard that:
+
+Evaluates Olympic performance beyond medal counts
+
+Assesses gender parity across athletes, coaches, and officials
+
+Identifies national specialization and power concentration strategies
+
+Enables flexible, user-driven exploration through advanced DAX modeling
+
+
+
+## Executive KPIs
+
+At a glance, the dashboard captures the scale and complexity of the XXXIII Olympiad:
+
+- **11,100+ Total Athletes**
+
+- **206 Participating Countries (NOCs)**
+
+- **198 Nationalities**
+
+- **52 Sports**
+
+- **28 Team Sports**
+
+- **35 Competition Venues**
+
+- **974 Coaches**
+
+- **1,021 Technical Officials**
+
+These KPIs frame the Olympics as both a global sporting event and a large-scale organizational system.
+
+## Key Insights & Visualizations
+
+### 1. Dynamic Analysis: The "Multi-Dimensional" Explorer
+To allow for deep exploration of the Paris 2024 results, I implemented Dynamic Field Parameters. This allows the user to toggle the entire dashboard’s view instantly across different categories.
+
+#### X-Axis:**
+
+- **Total Medals:** The core volume metric.
+
+
+#### Y-Axis (Dynamic Selection):** The viewer can switch the Y-Axis to analyze medal distribution by:
+
+- **Discipline:** Which sports are most "top-heavy" with medals?
+
+- **Gender:** Comparing participation and success rates.
+
+- **Country:** Traditional leaderboard view.
+
+- **Event:** Deep dive into specific competitions.
+
+- **Medal Type:** Breakdown by Gold, Silver, and Bronze.
+
+### 2. The Gender Parity Milestone
+Paris 2024 marked a historic shift as the first Olympic Games to achieve full gender parity. My analysis explores how this balance was distributed across different nations and disciplines.
+
+- **Metric:** Athlete Gender Ratio (%)
+
+- **Feature:** Interactive Tooltips — Users can hover over any segment to see the precise percentage breakdown between Male and Female participants.
+
+### 3. Distribution of Coaches by Gender
+This visualization highlights a clear gender gap in technical leadership, with male coaches overwhelmingly represented (743) compared to female coaches (231), underscoring the continued underrepresentation of women in elite coaching roles.
+
+### 4. Distribution of Technical Officials
+The visualization indicates that men constitute 652 technical officials (63.86%), making up nearly two-thirds of the total, while women account for 369 officials (36.14%), representing just over one-third. This distribution highlights a noticeable gender imbalance in technical officiating roles, with male participation remaining dominant.
+
+### 5. 
+This chart shows the distribution of teams across selected disciplines at the Paris 2024 Olympic Summer Games.
+Swimming records the highest participation (371 teams), followed by Rowing (158) and Athletics (142). Other disciplines such as Canoe Sprint, Tennis, Sailing, and Cycling Track etc show lower participation.
+
+### 6. Total Technical Officials by Function 
+
+This bar chart shows the distribution of technical officials across different functions at the Paris 2024 Olympic Summer Games. The data highlights that Referees make up the largest group with 640 officials, followed by Judges with 280 officials. Other roles, including Umpires (26), Jury Members (25), Line Judges (21), and Technical Officials (20), have significantly fewer personnel. Specialized roles such as Challenge Referees (5), Head Judges (2), Jury Chair (1), and Medical Delegates (1) represent a very small portion of the total.
+
+### Power BI
+
+DAX (Measures, Field Parameters)
+
+Interactive Tooltips
+
+📂 Data Source
+
+The analysis is based on the Paris 2024 Olympic Dataset:
+
+Paris 2024 Olympic Games Dataset (Kaggle)
+
+Key fields include: athlete, gender, country (NOC), sport, discipline, event, medal, coach, official role.
+
+
+
