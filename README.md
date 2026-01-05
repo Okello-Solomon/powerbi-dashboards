@@ -305,7 +305,7 @@ Visualization Platform: Power BI Desktop
  
 ## Project Overview
 
-This repository features an interactive Power BI dashboard built to analyze performance, participation, and representation at the Paris 2024 Summer Olympic Games.
+The dashboard analyzes performance, participation, and representation at the Paris 2024 Summer Olympic Games.
 
 Using the official Paris 2024 Kaggle dataset, the dashboard goes beyond medal tables to uncover structural, organizational, and social dynamics of the Games focusing on gender parity, technical leadership, and national specialization strategies.
 
