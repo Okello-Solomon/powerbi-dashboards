@@ -408,7 +408,7 @@ The analysis is based on the Paris 2024 Olympic Dataset:
 
 </details>
 
-![image alt](https://github.com/Okello-Solomon/powerbi-dashboards/blob/a58020beb68fa5ebea0d29af93ff1e5077eba892/Superstore%20Performance%20Dashboard%202.PNG)
+![image alt]()
 
 
 
