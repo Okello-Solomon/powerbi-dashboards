@@ -408,7 +408,7 @@ The analysis is based on the Paris 2024 Olympic Dataset:
 
 </details>
 
-![image alt]()
+![image alt](https://github.com/Okello-Solomon/powerbi-dashboards/blob/13e04b3759dd9dac0eefdb004036b93bf00d771a/Paris%202024%20Olympic%20Games%20Performance%20Analytics%20Dashboard.PNG)
 
 
 
