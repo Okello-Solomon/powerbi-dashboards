@@ -378,7 +378,7 @@ Paris 2024 marked a historic shift as the first Olympic Games to achieve full ge
 
 - **Metric:** Athlete Gender Ratio (%)
 
-- **Feature:** Interactive Tooltips — Users can hover over any segment to see the precise percentage breakdown between Male and Female participants.
+- **Feature:** Interactive Tooltips; Users can hover over any segment to see the precise percentage breakdown between Male and Female participants.
 
 ### 3. Distribution of Coaches by Gender
 This visualization highlights a clear gender gap in technical leadership, with male coaches overwhelmingly represented (743) compared to female coaches (231), underscoring the continued underrepresentation of women in elite coaching roles.
