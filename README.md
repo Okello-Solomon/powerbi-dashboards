@@ -592,5 +592,5 @@ Mapping: Bing Maps Integration
 
 </details>
 
-![image alt]()
+![image alt](https://github.com/Okello-Solomon/powerbi-dashboards/blob/34694cb905b17b31f6a8aae0019580b18460de67/COVID-19%20Surveillance%20Dashboard%201.PNG)
 
