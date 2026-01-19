@@ -412,4 +412,183 @@ The analysis is based on the Paris 2024 Olympic Dataset:
 
 
 
+ # 6. International COVID-19 Surveillance Dashboard
+ 
+## Project Overview
+
+The International COVID-19 Surveillance Dashboard is an advanced Power BI analytics solution designed to monitor, analyze, and compare the global impact of COVID-19 across 209 countries.
+The dashboard converts raw surveillance data into actionable public-health insights using interactive visuals, population-normalized metrics, and dynamic analytics controls.
+
+<details> <summary><strong> View Project Details</strong></summary>
+  
+### This project emphasizes:
+
+Fair cross-country comparison through per-capita indicators
+
+Deep exploratory analysis via Field Parameters
+
+Clear storytelling through multi-level visual design
+
+### Global Snapshot — Key Performance Indicators (KPIs)
+
+**The dashboard opens with a high-level summary of the pandemic’s global status:**
+
+- **Total Countries Monitored:** 209
+
+- **Total Tests Conducted:** 268M
+
+- **Total Confirmed Cases:** 19M
+
+- **Total Recovered:** 12M (62.97% recovery rate)
+
+- **Total Deaths:** 713K (3.72% fatality rate)
+
+- **Active Cases:** 6M
+
+These KPIs provide immediate situational awareness of global disease burden and outcomes.
+
+### Visual Analytics & Insights
+
+#### 1. Current Disease Burden
+
+Treemap – Total Active Cases by Continent
+
+This visual shows where COVID-19 pressure is currently concentrated:
+
+- **North America:** ~3M active cases
+
+- **Asia & South America:** ~1M each
+
+- **Lower burden observed in Europe and Africa**
+
+**Insight:** The treemap quickly identifies regions under the greatest healthcare strain.
+
+#### 2. Case Outcome Distribution
+
+Donut Chart; Active Cases, Recoveries, and Deaths
+
+**Global case outcomes are distributed as:**
+
+- **Recovered:** ~65.4%
+
+- **Active:** ~30.7%
+
+- **Deaths:** ~3.9%
+
+📌 Insight: While recovery dominates, a substantial proportion of active cases indicates sustained transmission risk.
+
+#### 3. Population-Adjusted Severity Funnel
+
+Funnel Chart; COVID-19 Intensity per 1M Population
+
+This funnel chart provides a population-normalized view of the COVID-19 surveillance pipeline, illustrating how testing volume translates into infections and fatalities when adjusted for population size.
+
+**Funnel Stages (Per 1M Population):**
+
+- **Testing Intensity:** ~16.04M tests per 1M population
+
+- **Infection Rate:** ~0.66M cases per 1M population
+
+- **Mortality Rate:** ~0.02M deaths per 1M population
+
+**Insight:**
+The funnel highlights the attrition from testing to confirmed infection to mortality, offering a clear view of pandemic severity independent of population size. This allows users to compare true impact and health-system outcomes across regions without bias from absolute population counts.
+
+### Population-Normalized Comparative Analysis (Per 1M Population)
+
+To enable equitable comparisons across countries with vastly different population sizes, the dashboard uses per-1M population metrics throughout its analytical visuals.
+
+ #### 4. Column Chart Variant 1 — Broad Comparative View
+
+Dynamic Column Chart (Multi-Level Comparison)
+
+**X-Axis (Field Parameter):**
+
+- **Continent**
+
+- **Country/Region**
+
+- **WHO Region**
+
+**Y-Axis (Per 1M Population – Field Parameter):**
+
+- **Infection **
+
+- **Mortality Rate**
+
+- **Testing Intensity**
+
+**Purpose:**
+Supports high-level global and regional comparisons, including WHO-standardized regional analysis.
+
+#### 5. Column Chart Variant 2 — Focused Country & Continent View
+
+Dynamic Column Chart (Ranking & Precision Analysis)
+
+**X-Axis (Field Parameter):**
+
+- **Country/Region**
+
+- **Continent**
+
+**Y-Axis (Per 1M Population – Field Parameter):**
+
+- **Infection Rate**
+
+- **Mortality Rate**
+
+- **Testing Intensity**
+
+**Purpose:**
+Optimized for precise country-level ranking and severity analysis, excluding WHO Region to:
+
+Reduce aggregation bias
+
+Improve interpretability
+
+Clearly identify outliers
+
+Example Insight:
+
+San Marino (1,238) and Belgium (850) emerge as global leaders in mortality rate per 1M population, insights obscured in absolute counts.
+
+### Advanced Interactivity & Analytics Engine
+
+#### Field Parameters (Dynamic Analytics)
+
+The dashboard uses Power BI Field Parameters to allow real-time switching of:
+
+Analytical dimensions (X-axis)
+
+Population-normalized indicators (Y-axis)
+
+This design enables exploratory analysis without duplicating visuals, improving usability and performance.
+
+#### Granular Filtering
+
+Country slicer for national drill-downs
+
+WHO Region slicer for standardized global comparisons
+
+All visuals respond dynamically to slicer selections
+
+#### Analytical Techniques
+
+DAX-based 7-Day Moving Averages to smooth daily volatility and reveal underlying trends
+
+Population-Normalized Metrics (Per 1M) for fair comparison
+
+Spatiotemporal Mapping via Bing Maps for geographic surveillance
+
+### Technical Stack
+
+Tool: Power BI Desktop
+
+Data Modeling & Logic: DAX
+
+Interactivity: Field Parameters & Slicers
+
+Mapping: Bing Maps Integration
+
+</details>
 
