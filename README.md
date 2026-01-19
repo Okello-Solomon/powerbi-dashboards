@@ -498,7 +498,7 @@ The funnel highlights the attrition from testing to confirmed infection to morta
 
 To enable equitable comparisons across countries with vastly different population sizes, the dashboard uses per-1M population metrics throughout its analytical visuals.
 
- #### 4. Column Chart Variant 1 — Broad Comparative View
+ #### 4. Column Chart Variant 1; Broad Comparative View
 
 Dynamic Column Chart (Multi-Level Comparison)
 
@@ -521,7 +521,7 @@ Dynamic Column Chart (Multi-Level Comparison)
 **Purpose:**
 Supports high-level global and regional comparisons, including WHO-standardized regional analysis.
 
-#### 5. Column Chart Variant 2 — Focused Country & Continent View
+#### 5. Column Chart Variant 2; Focused Country & Continent View
 
 Dynamic Column Chart (Ranking & Precision Analysis)
 
@@ -591,4 +591,6 @@ Interactivity: Field Parameters & Slicers
 Mapping: Bing Maps Integration
 
 </details>
+
+![image alt]()
 
