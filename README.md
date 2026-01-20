@@ -429,7 +429,7 @@ Deep exploratory analysis via Field Parameters
 
 Clear storytelling through multi-level visual design
 
-### Global Snapshot — Key Performance Indicators (KPIs)
+### Global Snapshot; Key Performance Indicators (KPIs)
 
 **The dashboard opens with a high-level summary of the pandemic’s global status:**
 
@@ -512,7 +512,7 @@ Dynamic Column Chart (Multi-Level Comparison)
 
 **Y-Axis (Per 1M Population – Field Parameter):**
 
-- **Infection **
+- **Infection**
 
 - **Mortality Rate**
 
@@ -582,13 +582,19 @@ Spatiotemporal Mapping via Bing Maps for geographic surveillance
 
 ### Technical Stack
 
-Tool: Power BI Desktop
+- **Tool:** Power BI Desktop
 
-Data Modeling & Logic: DAX
+- **Data Modeling & Logic:** DAX
 
-Interactivity: Field Parameters & Slicers
+- **Interactivity: Field Parameters & Slicers
 
-Mapping: Bing Maps Integration
+- **Mapping:** Bing Maps Integration
+
+### Data Source
+
+The analysis is based on a global COVID-19 surveillance dataset compiled from publicly reported health data.
+
+**Source:** [COVID-19 Global Report Dataset](https://www.kaggle.com/datasets/imdevskp/corona-virus-report)
 
 </details>
 
