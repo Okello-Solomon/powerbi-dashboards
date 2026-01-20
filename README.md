@@ -475,7 +475,7 @@ Donut Chart; Active Cases, Recoveries, and Deaths
 
 - **Deaths:** ~3.9%
 
-📌 Insight: While recovery dominates, a substantial proportion of active cases indicates sustained transmission risk.
+**Insight:** While recovery dominates, a substantial proportion of active cases indicates sustained transmission risk.
 
 #### 3. Population-Adjusted Severity Funnel
 
