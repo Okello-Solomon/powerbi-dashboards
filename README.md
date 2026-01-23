@@ -602,5 +602,5 @@ The analysis is based on a global COVID-19 surveillance dataset compiled from pu
 
 
 
-![image alt]()
+![image alt](https://github.com/Okello-Solomon/powerbi-dashboards/blob/70c84ca930e946864f2b46fe381b0c4f87ac050d/COVID-19%20Surveillance%20Dashboard%202.PNG)
 
