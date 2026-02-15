@@ -608,5 +608,5 @@ The analysis is based on a global COVID-19 surveillance dataset compiled from pu
 
 # 7.Telecom Customer Churn Analysis Dashboard
 
-![image alt]()
+![image alt](https://github.com/Okello-Solomon/powerbi-dashboards/blob/66964e231066da9e6c07a0054773ace8fad5fa90/Telecom%20Customer%20Churn%20Analysis%20Dashboard.png)
 
