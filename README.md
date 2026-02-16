@@ -606,7 +606,164 @@ The analysis is based on a global COVID-19 surveillance dataset compiled from pu
 
 
 
-# 7.Telecom Customer Churn Analysis Dashboard
+# 7. Telecom Customer Churn Analysis Dashboard
+
+## **Project Overview: ** 
+This project focuses on analyzing customer churn in a California-based telecommunications company during Q2 2022. The primary objective is to understand customer behavior, identify key factors influencing churn, and generate actionable insights to support data-driven decision-making and business intelligence reporting.
+
+<details>
+<summary><strong> View Project Details</strong></summary>
+
+### **KPI Snapshot**
+•	Total Customers: 7,043
+
+•	Churn Rate: 26.54%
+
+•	Retention Rate: 73.46%
+
+•	Total Revenue Generated: $170.97M
+
+•	Revenue Lost to Churn: $29.48M
+
+•	Total Referrals: 110K
+
+•	Average Customer Age: 46.51 years
+
+•	Cities Covered: 1,106
+
+
+#### **Key Financial Insight**
+More than $29M in revenue has already been lost due to churn, representing a significant leakage risk that requires structured intervention.
+Churn is not simply a volume issue, it is a high-value revenue erosion problem.
+________________________________________
+### **Deep-Dive Analytical Insights
+________________________________________
+ #### **Customer Status & Revenue Exposure**
+##### **Customer Distribution**
+•	Stayed: 67.02% (37.76K)
+•	Churned: 26.54% (14.95K)
+•	Joined: 6.45% (3.63K)
+##### **Revenue Contribution by Status**
+•	Active customers: $105M
+•	Churned customers: $23M in sunk charges
+This confirms that churn directly impacts revenue sustainability.
+________________________________________
+#### **High-Risk Behavioral Drivers**
+##### **Payment Method Risk**
+The highest churn concentration occurs among:
+•	Bank Withdrawal users; 10.6K churned
+•	More than 3x higher churn compared to Credit Card users
+This suggests:
+•	Payment friction
+•	Lower behavioral commitment
+•	Weak auto-renewal retention structure
+________________________________________
+#### **Contract Vulnerability**
+Using contract segmentation: 
+•	Month-to-Month contracts show the highest churn volatility
+•	One-Year and Two-Year commitments demonstrate stronger retention
+Customers without long-term commitment are significantly more likely to leave.
+________________________________________#### **Demographic Profile**
+•	Male: 50.48%
+•	Female: 49.52%
+Churn is not gender-driven.
+•	51.7% Unmarried
+Unmarried customers show higher mobility and churn sensitivity.
+________________________________________
+#### **Service-Level Churn & Retention Analysis**
+A central component of this dashboard is the Churn & Retention Matrix by Service Subscription Status, which compares churn behavior between customers who subscribed to specific services (“Yes”) and those who did not (“No”).
+This analysis does not reflect time-based decline.
+Instead, it highlights behavioral differences between subscribers and non-subscribers.
+Across nearly all services, a consistent pattern emerges:
+Customers who subscribe to additional value-added services exhibit lower churn rates than those who do not.
+________________________________________
+##### **High-Impact Service Associations**
+**Online Security**
+•	No: 41.77% churn
+•	Yes: 14.61% churn
+This represents the strongest difference observed. Customers without online security churn at nearly three times the rate of subscribers, indicating a strong association between security services and customer stability.
+________________________________________
+**Premium Tech Support**
+•	No: 41.64% churn
+•	Yes: 15.17% churn
+Subscribers to technical support services demonstrate significantly lower churn, reinforcing the importance of reliability and direct assistance.
+________________________________________
+**Device Protection Plan**
+•	No: 39.13% churn
+•	Yes: 22.50% churn
+Customers who safeguard their devices show noticeably lower churn, suggesting higher engagement and stronger service attachment.
+________________________________________
+##### Moderate Service Associations
+**Online Backup**
+•	No: 39.93% churn
+•	Yes: 21.53% churn
+Backup services show a meaningful difference in churn behavior, indicating stronger retention among subscribers.
+________________________________________##### **Moderate-to-Low Impact Services**
+**Streaming Movies, Music, and TV**
+•	Non-subscribers: 33.68% churn
+•	Subscribers: 29.95% churn
+Entertainment services are associated with modestly lower churn, though the gap is smaller compared to security and support services.
+________________________________________##### **Minimal Differentiation** 
+Unlimited Data
+•	No: 32.90% churn
+•	Yes: 31.65% churn
+The difference is marginal, suggesting unlimited data may be perceived as a baseline expectation rather than a strong retention differentiator.
+________________________________________
+#### **Service Impact Hierarchy**
+1.	Security & Technical Support → Strongest association with lower churn
+2.	Backup & Protection → Moderate association
+3.	Entertainment Add-ons → Incremental improvement
+4.	Unlimited Data → Minimal differentiation
+This provides clear direction for churn mitigation strategy and service bundling optimization.
+________________________________________
+### **Dashboard Features & Advanced Modeling**
+**Dynamic Axis Exploration (Field Parameters) **
+Users can dynamically toggle:
+**X-Axis Metrics**
+•	Total Charges
+•	Total Revenue
+•	Customer Counts
+•	Refunds
+**Y-Axis Dimensions**
+•	Payment Method
+•	Gender
+•	Internet Type
+•	Contract
+•	City
+•	Marital Status
+•	Offer Type
+This enables multi-dimensional exploratory analysis without duplicating visuals.
+________________________________________
+#### **Dynamic X-Axis (Financial & Volume Metrics) **
+The X-axis can be swapped to compare Customer Status (Stayed, Churned, Joined) against various financial and behavioral benchmarks:
+•	**Total Charges ($105M vs $23M): ** Quantifies the "Sunk Revenue" from churned customers compared to the active base.
+•	**Total Revenue: ** Tracks overall financial health and the $29.48M total revenue lost.
+•	**Total Customer: ** Visualizes the volume split (e.g., 26.54% Churn Rate).
+•	**Total Dependents: ** Analyzes household "stickiness"; accounts with more dependents typically show lower churn.
+•	**Total Refunds: ** Identifies a "Red Flag" correlation between service dissatisfaction and attrition.
+________________________________________
+#### Interactive Segmentation (Slicers)
+•	**Customer Status: ** Churned / Joined / Stayed
+•	**Contract: ** Month-to-Month / One-Year / Two-Year
+•	**Internet Type: ** Fiber Optic / Cable / DSL
+•	**Gender: ** Male / Female
+All visuals update dynamically.
+________________________________________
+#### **Technical Stack**
+•	Visualization Platform: Power BI Desktop
+•	Modeling Language: DAX
+o	DISTINCTCOUNT
+o	CALCULATE
+o	DIVIDE
+o	Context-aware measures
+o	Field Parameters
+•	Data Transformation: Power Query
+________________________________________
+#### **Data Source**
+[Telecom Customer Churn Dataset]( https://www.kaggle.com/datasets/shilongzhuang/telecom-customer-churn-by-maven-analytics)
+<details>
+
+
 
 ![image alt](https://github.com/Okello-Solomon/powerbi-dashboards/blob/66964e231066da9e6c07a0054773ace8fad5fa90/Telecom%20Customer%20Churn%20Analysis%20Dashboard.png)
 
