@@ -773,5 +773,5 @@ o	Field Parameters
 
 </details>
 
-![image alt](https://github.com/Okello-Solomon/powerbi-dashboards/blob/66964e231066da9e6c07a0054773ace8fad5fa90/Telecom%20Customer%20Churn%20Analysis%20Dashboard.png)
+![image alt](https://github.com/Okello-Solomon/powerbi-dashboards/blob/eb8ff9578b2495973b42d6e9aa86da6b76cb83c9/Telecom%20Customer%20Churn%20Analysis%20Dashboard.png)
 
