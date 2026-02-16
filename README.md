@@ -608,7 +608,7 @@ The analysis is based on a global COVID-19 surveillance dataset compiled from pu
 
 # 7. Telecom Customer Churn Analysis Dashboard
 
-## **Project Overview: ** 
+## **Project Overview:** 
 This project focuses on analyzing customer churn in a California-based telecommunications company during Q2 2022. The primary objective is to understand customer behavior, identify key factors influencing churn, and generate actionable insights to support data-driven decision-making and business intelligence reporting.
 
 <details>
@@ -636,7 +636,7 @@ This project focuses on analyzing customer churn in a California-based telecommu
 More than $29M in revenue has already been lost due to churn, representing a significant leakage risk that requires structured intervention.
 Churn is not simply a volume issue, it is a high-value revenue erosion problem.
 
-### **Deep-Dive Analytical Insights
+### **Deep-Dive Analytical Insights**
 
 #### **Customer Status & Revenue Exposure**
 
@@ -771,8 +771,7 @@ o	Field Parameters
 #### **Data Source**
 [Telecom Customer Churn Dataset]( https://www.kaggle.com/datasets/shilongzhuang/telecom-customer-churn-by-maven-analytics)
 
-<details>
-
+</details>
 
 ![image alt](https://github.com/Okello-Solomon/powerbi-dashboards/blob/66964e231066da9e6c07a0054773ace8fad5fa90/Telecom%20Customer%20Churn%20Analysis%20Dashboard.png)
 
