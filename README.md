@@ -759,14 +759,14 @@ The X-axis can be swapped to compare Customer Status (Stayed, Churned, Joined) a
 All visuals update dynamically.
 
 #### **Technical Stack**
-•	Visualization Platform: Power BI Desktop
-•	Modeling Language: DAX
-o	DISTINCTCOUNT
-o	CALCULATE
-o	DIVIDE
-o	Context-aware measures
-o	Field Parameters
-•	Data Transformation: Power Query
+- Visualization Platform: Power BI Desktop
+- Modeling Language: DAX
+- DISTINCTCOUNT
+- CALCULATE
+- DIVIDE
+- Context-aware measures
+- Field Parameters
+- Data Transformation: Power Query
 
 #### **Data Source**
 [Telecom Customer Churn Dataset]( https://www.kaggle.com/datasets/shilongzhuang/telecom-customer-churn-by-maven-analytics)
