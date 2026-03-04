@@ -775,3 +775,8 @@ All visuals update dynamically.
 
 ![image alt](https://github.com/Okello-Solomon/powerbi-dashboards/blob/eb8ff9578b2495973b42d6e9aa86da6b76cb83c9/Telecom%20Customer%20Churn%20Analysis%20Dashboard.png)
 
+
+# 8. Supply Chain Analysis Dashboard
+
+![image alt](https://github.com/Okello-Solomon/powerbi-dashboards/blob/81edb9b366974a443999e537e5f20862a49fe7ba/Supply%20Chain%20Analysis%20Dashboard.png)
+
