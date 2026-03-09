@@ -828,7 +828,7 @@ A comprehensive slicer panel allows users to filter the entire experience by:
 -	**Supplier Name:** Detailed tracking by Supplier (Supplier 1, 2, 3, 4, 5)
   
 ### Tools & Technical Stack
--	**Visualization Platform: ** Power BI Desktop
+-	**Visualization Platform:** Power BI Desktop
 -	**Modeling & Analytics:** DAX (Field Parameters, Pareto Calculations, Inventory Velocity Logic).
 -	**Data Transformation:** Power Query (Data cleaning, normalization of 24 supply chain features).
   
