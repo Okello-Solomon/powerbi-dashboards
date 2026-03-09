@@ -791,20 +791,25 @@ The dashboard provides an immediate snapshot of the operational health and finan
 -	**Profit Margin:** 89.92%
 -	**Inventory Turnover:** 965.02
 -	**Defect Rate:** 0.06%
--	**Avg Shipping Time: ** 5.75 Days
+-	**Avg Shipping Time:** 5.75 Days
 These KPIs reflect a high-margin business model with rapid stock movement, where products are sold and replaced nearly 965 times within the period.
+
 ## Core Analytical Capabilities
 The dashboard uses Power BI Field Parameters and advanced DAX calculations to provide flexible analysis without duplicating visuals. Users can dynamically pivot the report to explore different perspectives of operational performance.
+
 #### Dynamic Metrics (X-Axis Selection)
 Users can toggle the bar charts and trends between 9 distinct quantitative measures:
--	**Financials: ** Total Revenue, Total Cost, Gross Profit, Profit Margin %.
--	**Operations: ** Total Units Produced, Total Units Sold , Total Order Quantity.
+-	**Financials:** Total Revenue, Total Cost, Gross Profit, Profit Margin %.
+-	**Operations:** Total Units Produced, Total Units Sold , Total Order Quantity.
 -	**Efficiency:** Inventory Turnover and Defect Rate %.
+  
 #### Dynamic Dimensions (Y-Axis Selection)
 The data can be dynamically grouped and analyzed by:
--	** Product & Customer:** Product Type (Skincare, Haircare, Cosmetics) or Customer Demographics.
--	** Logistics:**  Location (Cities), Shipping Carriers, Routes, or Transportation Modes.
+-	**Product & Customer:** Product Type (Skincare, Haircare, Cosmetics) or Customer Demographics.
+-	**Logistics:**  Location (Cities), Shipping Carriers, Routes, or Transportation Modes.
+  
 ### Advanced Business Analytics
+
 #### Pareto Analysis - Revenue by Location (80/20 Rule)
 This analysis identifies the geographical hubs driving the majority of the company's financial success.
 -	The "Vital Few": Mumbai, Kolkata, and Chennai account for about 80% of total revenue, indicating these hubs are the most critical for resource allocation.
@@ -816,14 +821,17 @@ A dedicated histogram analyzes the distribution of SKU shipping durations:
 ### Revenue Segmentation
 -	**Product Type Donut:** Skincare is the dominant revenue engine, contributing 41.83% ($241.63K) of total earnings.
 -	**Route Treemap:** Route A is the primary logistics artery, moving $253.20K in value, followed by Route B and C.
+  
 ### User Control & Slicers
 A comprehensive slicer panel allows users to filter the entire experience by:
 -	**Customer Demographic:** Gender demographics (Female, Male, Non-binary, Unknown).
 -	**Supplier Name:** Detailed tracking by Supplier (Supplier 1, 2, 3, 4, 5)
+  
 ### Tools & Technical Stack
 -	**Visualization Platform: ** Power BI Desktop
--	**Modeling & Analytics: ** DAX (Field Parameters, Pareto Calculations, Inventory Velocity Logic).
--	**Data Transformation: ** Power Query (Data cleaning, normalization of 24 supply chain features).
+-	**Modeling & Analytics:** DAX (Field Parameters, Pareto Calculations, Inventory Velocity Logic).
+-	**Data Transformation:** Power Query (Data cleaning, normalization of 24 supply chain features).
+  
 ### Data Source
 **Source:** [Supply Chain Analysis Dataset on Kaggle]( https://www.kaggle.com/datasets/harshsingh2209/supply-chain-analysis/data)
 </details>
