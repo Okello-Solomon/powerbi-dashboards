@@ -778,5 +778,55 @@ All visuals update dynamically.
 
 # 8. Supply Chain Analysis Dashboard
 
+## Project Overview
+This interactive Power BI dashboard provides a deep-dive, data-driven analysis of the supply chain operations for a Fashion and Beauty startup. It moves beyond basic logistics tracking to uncover the critical relationships between manufacturing efficiency, transportation costs, and product profitability.
+The primary objective is to empower supply chain managers and stakeholders with dynamic tools to monitor inventory velocity, evaluate supplier reliability, optimize regional distribution hubs, and maintain high-quality standards across a diverse portfolio of makeup products.
+<details> <summary><strong>View Project Details</strong></summary>
+
+## Key Performance Indicators (KPIs)
+The dashboard provides an immediate snapshot of the operational health and financial scale of the startup:
+-	**Total Revenue:** $577.60K
+-	**Total Cost:** $58.21K
+-	**Gross Profit:** $519.40K
+-	**Profit Margin:** 89.92%
+-	**Inventory Turnover:** 965.02
+-	**Defect Rate:** 0.06%
+-	**Avg Shipping Time: ** 5.75 Days
+These KPIs reflect a high-margin business model with rapid stock movement, where products are sold and replaced nearly 965 times within the period.
+## Core Analytical Capabilities
+The dashboard uses Power BI Field Parameters and advanced DAX calculations to provide flexible analysis without duplicating visuals. Users can dynamically pivot the report to explore different perspectives of operational performance.
+#### Dynamic Metrics (X-Axis Selection)
+Users can toggle the bar charts and trends between 9 distinct quantitative measures:
+-	**Financials: ** Total Revenue, Total Cost, Gross Profit, Profit Margin %.
+-	**Operations: ** Total Units Produced, Total Units Sold , Total Order Quantity.
+-	**Efficiency:** Inventory Turnover and Defect Rate %.
+#### Dynamic Dimensions (Y-Axis Selection)
+The data can be dynamically grouped and analyzed by:
+-	** Product & Customer:** Product Type (Skincare, Haircare, Cosmetics) or Customer Demographics.
+-	** Logistics:**  Location (Cities), Shipping Carriers, Routes, or Transportation Modes.
+### Advanced Business Analytics
+#### Pareto Analysis - Revenue by Location (80/20 Rule)
+This analysis identifies the geographical hubs driving the majority of the company's financial success.
+-	The "Vital Few": Mumbai, Kolkata, and Chennai account for about 80% of total revenue, indicating these hubs are the most critical for resource allocation.
+#### Logistics & Shipping Distribution
+A dedicated histogram analyzes the distribution of SKU shipping durations:
+-	While the average shipping time is 5.75 days, a significant cluster of products (33 SKUs) falls into the 8–10 day range.
+-	This identifies specific shipping lanes or carriers that require efficiency improvements to meet the startup's speed-to-market goals.
+-	Only a small portion of shipments fall into the fastest delivery window
+### Revenue Segmentation
+-	**Product Type Donut:** Skincare is the dominant revenue engine, contributing 41.83% ($241.63K) of total earnings.
+-	**Route Treemap:** Route A is the primary logistics artery, moving $253.20K in value, followed by Route B and C.
+### User Control & Slicers
+A comprehensive slicer panel allows users to filter the entire experience by:
+-	**Customer Demographic:** Gender demographics (Female, Male, Non-binary, Unknown).
+-	**Supplier Name:** Detailed tracking by Supplier (Supplier 1, 2, 3, 4, 5)
+### Tools & Technical Stack
+-	**Visualization Platform: ** Power BI Desktop
+-	**Modeling & Analytics: ** DAX (Field Parameters, Pareto Calculations, Inventory Velocity Logic).
+-	**Data Transformation: ** Power Query (Data cleaning, normalization of 24 supply chain features).
+### Data Source
+**Source:** [Supply Chain Analysis Dataset on Kaggle]( https://www.kaggle.com/datasets/harshsingh2209/supply-chain-analysis/data)
+</details>
+
 ![image alt](https://github.com/Okello-Solomon/powerbi-dashboards/blob/81edb9b366974a443999e537e5f20862a49fe7ba/Supply%20Chain%20Analysis%20Dashboard.png)
 
