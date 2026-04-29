@@ -838,3 +838,96 @@ A comprehensive slicer panel allows users to filter the entire experience by:
 
 ![image alt](https://github.com/Okello-Solomon/powerbi-dashboards/blob/81edb9b366974a443999e537e5f20862a49fe7ba/Supply%20Chain%20Analysis%20Dashboard.png)
 
+# 9 UK Rail Operations & Revenue Dashboard
+
+## Project Overview
+This interactive Power BI dashboard provides a comprehensive analysis of railway operations, revenue performance, and service reliability using UK National Rail journey data.
+
+The project moves beyond simple trip counts and revenue totals to uncover the key drivers of operational efficiency, customer demand, and financial performance. It integrates both business (revenue, pricing) and operational (delays, cancellations, refunds) perspectives into a single analytical solution.
+
+The goal is to support better decision-making in pricing, scheduling, and operational efficiency.
+
+<details> <summary><strong>View Project Details</strong></summary>
+## Key Performance Indicators (KPIs)
+-	Total Journeys: 31,653 
+-	Total Revenue: £741,921 
+-	Average Ticket Price: £23.44 
+-	On-Time Journeys: 27,481 
+-	Delays: 2,292 
+-	Cancellations: 1,880 
+-	On-Time Rate: 86.82% 
+-	Refund Rate: 3.53% 
+-	Departure Stations: 12 
+**Insight:**
+The rail system demonstrates strong reliability, with nearly 87% of journeys on time, though 13.18% of trips (4,172 journeys) experience disruptions, impacting both revenue and customer satisfaction.
+
+## Core Visual Analysis & Insights
+### 1. Revenue Distribution by Payment Method (Treemap)
+- Credit Card: £469,511 (63.3%) 
+- Contactless: £219,444 (29.6%) 
+- Debit Card: £52,966 (7.1%) 
+**Insight:** 
+Credit card payments dominate revenue, contributing nearly two-thirds of total income, indicating strong reliance on digital payment channels.
+
+### 2. Revenue by Ticket Type (Donut Chart)
+-	Advance: £309,274 (41.69%) 
+-	Off-Peak: £223,338 (30.10%) 
+-	Anytime: £209,309 (28.21%) 
+**Insight:**
+Advance tickets generate the highest share of revenue primarily due to their strong demand and high purchase volume, while Anytime tickets despite having higher prices contribute less overall because they are used less frequently. This pattern highlights a clear trade-off between volume and pricing, where revenue is driven more by the frequency of purchases rather than premium pricing alone, suggesting that demand plays a more critical role than price in maximizing total revenue.
+### 3. Refund Rate by Journey Status (100% Stacked Column Chart)
+**Cancelled Journeys**
+-	Refund: 69.57% 
+-	No Refund: 30.43% 
+**Delayed Journeys**
+-	Refund: 76.18% 
+-	No Refund: 23.82% 
+**Insight:**
+Most disrupted journeys lead to refund requests, with delays triggering an even higher refund rate (76%) than cancellations (70%). This suggests that passengers are more sensitive to prolonged inconvenience and uncertainty caused by delays than outright cancellations, highlighting that maintaining punctuality is critical not just for operations but also for minimizing revenue loss and preserving customer satisfaction.
+### 4. Trip Distribution by Station (Clustered Bar Chart)
+•	Interactive axis allows switching between: 
+o	Departure Stations 
+o	Arrival Destinations 
+**Insight:**
+A small number of stations dominate total traffic, indicating that demand is heavily concentrated in key transport hubs.
+
+### 5. Journey Status Distribution (Pie Chart)
+-	On-Time: 27,481 (86.82%) 
+-	Delayed: 2,292 (7.24%) 
+-	Cancelled: 1,880 (5.94%) 
+**Insight:**
+The system performs well overall; however, about 1 in every 8 journeys is disrupted, which becomes significant when considered at scale.
+### 6. Revenue Breakdown Matrix (Ticket Type × Class × Payment Method)
+**Insight:**
+The revenue breakdown matrix helps identify high-performing combinations such as Advance tickets purchased in Standard class using Credit Card, while also highlighting low-performing segments that may require targeted optimization to improve overall revenue performance.
+### 7. Journey Status by Day of Week (100% Stacked Column Chart)
+The “Journey Status by Day of Week” 100% stacked column chart is used to understand how performance varies across different days of the week by comparing the proportions of on-time, delayed, and cancelled journeys. It helps reveal which specific days experience more disruptions either in the form of delays or cancellations compared to others. This insight is useful for operational planning because it allows the rail operator to identify high-risk days and adjust train schedules, maintenance activities, or staffing levels accordingly. It also supports better workforce allocation by ensuring more staff are available on days when disruptions are more likely to occur, ultimately improving service reliability and customer experience.
+### 8. Hourly Departure Frequency by Day (Matrix / Heatmap)
+The Hourly Departure Frequency by Day heatmap shows clear peak travel periods in the morning (6-9 AM) and evening (4-7 PM), indicating heavy commuter activity during typical work start and end times. In contrast, there is significantly lower activity during midday and late-night hours. Overall, this pattern reflects a strong commuter-driven demand structure, where travel is concentrated around daily work schedules rather than being evenly distributed throughout the day.
+
+### 9. Interactivity & Features
+The dashboard is designed for flexible, user-driven analysis:
+-	**Slicers:** 
+The dashboard is designed to support flexible, user-driven analysis through interactive features. It includes slicers for ticket type and ticket class, allowing users to filter and segment the data based on these two categories.
+-	**Dynamic Filtering:**
+All visuals update dynamically based on the selected filters, ensuring that insights reflect the user’s choices in real time.
+-	**Drill-down Capabilities:**
+In addition, the dashboard provides drill-down capabilities, enabling users to move from high-level summaries to more detailed breakdowns for deeper analysis.
+## Tools & Technologies
+**Visualization:** Power BI Desktop 
+**Data Modeling:** DAX (KPIs, ratios, calculated columns) 
+**Data Preparation:** Power Query 
+**Visualization Techniques:**
+-	KPI Cards 
+-	Heatmaps 
+-	Scatter Plots 
+-	Matrix Tables with Conditional Formatting 
+## Data Source: [UK Train Rides]( https://mavenanalytics.io/data-playground/uk-train-rides)
+
+</details>
+
+![image alt](https://github.com/Okello-Solomon/powerbi-dashboards/blob/81edb9b366974a443999e537e5f20862a49fe7ba/Supply%20Chain%20Analysis%20Dashboard.png)
+
+
+
+
