@@ -848,6 +848,7 @@ The project moves beyond simple trip counts and revenue totals to uncover the ke
 The goal is to support better decision-making in pricing, scheduling, and operational efficiency.
 
 <details> <summary><strong>View Project Details</strong></summary>
+  
 ## Key Performance Indicators (KPIs)
 -	Total Journeys: 31,653 
 -	Total Revenue: £741,921 
@@ -857,7 +858,8 @@ The goal is to support better decision-making in pricing, scheduling, and operat
 -	Cancellations: 1,880 
 -	On-Time Rate: 86.82% 
 -	Refund Rate: 3.53% 
--	Departure Stations: 12 
+-	Departure Stations: 12
+  
 **Insight:**
 The rail system demonstrates strong reliability, with nearly 87% of journeys on time, though 13.18% of trips (4,172 journeys) experience disruptions, impacting both revenue and customer satisfaction.
 
