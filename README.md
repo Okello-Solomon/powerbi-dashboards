@@ -929,7 +929,7 @@ In addition, the dashboard provides drill-down capabilities, enabling users to m
 ![image alt](https://github.com/Okello-Solomon/powerbi-dashboards/blob/0895391804b221a71c9743b5821387c16a1b98dc/UK%20Train%20Rides/Dashboard%20Page%201.png)
 
 
-![image alt](https://github.com/Okello-Solomon/powerbi-dashboards/blob/0895391804b221a71c9743b5821387c16a1b98dc/UK%20Train%20Rides/Dashboard%20Page%201.png)
+![image alt](https://github.com/Okello-Solomon/powerbi-dashboards/blob/e0b845e705f2439a8e7aaf39617fd26514c92e5a/UK%20Train%20Rides/Dashboard%20Page%202.png)
 
 
 
