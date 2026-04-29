@@ -887,7 +887,7 @@ Advance tickets generate the highest share of revenue primarily due to their str
 **Delayed Journeys**
 -	Refund: 76.18% 
 -	No Refund: 23.82%
--	
+  
 **Insight:**
  	
 Most disrupted journeys lead to refund requests, with delays triggering an even higher refund rate (76%) than cancellations (70%). This suggests that passengers are more sensitive to prolonged inconvenience and uncertainty caused by delays than outright cancellations, highlighting that maintaining punctuality is critical not just for operations but also for minimizing revenue loss and preserving customer satisfaction.
