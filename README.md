@@ -838,7 +838,7 @@ A comprehensive slicer panel allows users to filter the entire experience by:
 
 ![image alt](https://github.com/Okello-Solomon/powerbi-dashboards/blob/81edb9b366974a443999e537e5f20862a49fe7ba/Supply%20Chain%20Analysis%20Dashboard.png)
 
-# 9 UK Rail Operations & Revenue Dashboard
+# 9. UK Rail Operations & Revenue Dashboard
 
 ## Project Overview
 This interactive Power BI dashboard provides a comprehensive analysis of railway operations, revenue performance, and service reliability using UK National Rail journey data.
