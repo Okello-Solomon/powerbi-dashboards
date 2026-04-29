@@ -926,7 +926,10 @@ In addition, the dashboard provides drill-down capabilities, enabling users to m
 
 </details>
 
-![image alt](https://github.com/Okello-Solomon/powerbi-dashboards/blob/81edb9b366974a443999e537e5f20862a49fe7ba/Supply%20Chain%20Analysis%20Dashboard.png)
+![image alt](https://github.com/Okello-Solomon/powerbi-dashboards/blob/0895391804b221a71c9743b5821387c16a1b98dc/UK%20Train%20Rides/Dashboard%20Page%201.png)
+
+
+![image alt](https://github.com/Okello-Solomon/powerbi-dashboards/blob/0895391804b221a71c9743b5821387c16a1b98dc/UK%20Train%20Rides/Dashboard%20Page%201.png)
 
 
 
