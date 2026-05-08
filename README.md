@@ -951,5 +951,119 @@ In addition, the dashboard provides drill-down capabilities, enabling users to m
 ![image alt](https://github.com/Okello-Solomon/powerbi-dashboards/blob/e0b845e705f2439a8e7aaf39617fd26514c92e5a/UK%20Train%20Rides/Dashboard%20Page%202.png)
 
 
+# 10. Employee Performance & Workforce Analytics Dashboard
+
+## Project Overview
+
+This interactive Power BI dashboard provides a data-driven analysis of employee performance, attrition, satisfaction, and workforce stability using the INX Future Inc. Employee Performance dataset. The project aims to help HR leaders and decision-makers identify key factors affecting productivity, retention, employee engagement, and organizational performance.
+The dashboard delivers actionable insights into performance bottlenecks, attrition risk, promotion gaps, and workplace satisfaction through interactive visual analytics and workforce segmentation. INX Future Inc. has a workforce of 1,200 employees across 6 departments, with an average employee age of 36.92 years and 11.33 years of work experience.
+The analysis highlights emerging organizational challenges related to employee retention, promotion stagnation, and maintaining high-performing talent, all of which directly impact productivity, service delivery, and client satisfaction.
+
+<details>
+<summary><strong> View Project Details</strong></summary>
+  
+## Workforce Structure & Demographic Insights
+The analysis shows that most employees at INX Future Inc. are within the 30-40 years age group, indicating a mature and experienced workforce. Employees at this stage typically prioritize career growth, promotion opportunities, work-life balance, job stability, and recognition, making employee engagement a key driver of performance and retention.
+
+### Key Performance Indicators (KPIs)
+The dashboard provides an immediate snapshot of workforce scale, employee stability, and organizational health:
+-	Total Employees: 1,200
+-	Departments: 6
+-	Average Employee Age: 36.92 Years
+-	Average Distance from Home: 9.17 KM
+-	Average Hourly Rate: 65.98
+-	Average Work Experience: 11.33 Years
+-	Attrition Rate: 14.83%
+-	Average Training Time: 2.79 Hrs
+  
+These KPIs dynamically respond to dashboard slicers and segmentation filters.
+
+### Employee Performance Distribution (Donut Chart)
+The employee performance analysis indicates that the majority of employees at INX Future Inc. are performing at a high level. Most employees fall under the Excellent performance category, accounting for approximately 72.83% of the workforce. Employees rated as Good represent about 16.17%, while 11.00% achieved the highest rating of Outstanding.
+
+### Employee Attrition Analysis (100% Stacked Bar Chart)
+Employee attrition highlights a key organizational risk. The “Good” performance group shows the highest attrition rate (18.56%), followed by "Excellent" (14.19%) and "Outstanding" (13.64%).
+Although "Excellent" employees have a lower attrition rate, they account for the highest number of exits due to their large workforce share, indicating a notable loss of core talent.
+Overall, the pattern suggests retention challenges among mid-level performers and the need to protect high-performing employees critical to productivity and service delivery.
+
+### Environment Satisfaction & Performance Relationship (Heatmap)
+The analysis reveals a strong relationship between workplace environment satisfaction and employee performance. Employees with High environment satisfaction recorded 310 “Excellent” and 54 “Outstanding” ratings, while those with Very High satisfaction recorded 307 “Excellent” and 51 “Outstanding” ratings.
+
+In contrast, employees with Low satisfaction recorded only 127 “Excellent” ratings but a much higher number of “Good” ratings (90), while Medium satisfaction employees recorded 130 “Excellent” and 98 “Good” ratings. This suggests that higher workplace satisfaction is strongly associated with better employee performance outcomes.
+
+### Employee Count by Performance Rating and Attrition (Clustered Column Chart)
+This chart compares employee retention and attrition across performance levels.
+
+Excellent performers had 750 stayed and 124 left, with an attrition rate of 14.19%, representing the highest number of total exits and a key loss of high-value talent.
+Good performers recorded the highest attrition rate at 18.56%, with 158 stayed and 36 left, indicating higher disengagement in this group.
+
+Outstanding performers showed the lowest attrition rate of 13.64%, with 114 stayed and 18 left, reflecting stronger retention among top performers.
+Overall, attrition is more concentrated among mid and high performers rather than low performance groups, suggesting retention challenges are driven more by engagement and career growth factors than performance ability.
+
+### Employee Count by Department and Performance Rating (100% Stacked Bar Chart)
+This 100% stacked bar chart analyzes the distribution of employee performance ratings across departments, showing the proportion of employees classified as Excellent, Good, and Outstanding within each department.
+
+**Key Insights**
+
+-	Development recorded one of the strongest performance profiles, with 84.21% Excellent (304 employees) and 12.19% Outstanding (44 employees), while only 3.6% Good (13 employees). 
+-	Data Science had the highest concentration of Excellent performers, with 85% Excellent (17 employees), 10% Outstanding (2 employees), and only 5% Good (1 employee). 
+-	Sales showed greater performance variation, with 67.29% Excellent (251 employees), 23.32% Good (87 employees), and 9.38% Outstanding (35 employees), indicating a larger mid-performing workforce. 
+-	Research & Development maintained a strong performance structure with 68.22% Excellent (234 employees) and 11.95% Outstanding (41 employees), though 19.83% (68 employees) remained in the Good category. 
+-	Human Resource demonstrated relatively balanced performance levels, with 70.37% Excellent (38 employees), 18.52% Good (10 employees), and 11.11% Outstanding (6 employees). 
+-	Finance recorded the weakest performance composition, with the lowest proportion of Excellent performers at 61.22% (30 employees) and the highest Good performer share at 30.61% (15 employees).
+-	
+**Strategic Insight**
+ 	
+The chart shows that most departments are dominated by Excellent performers, indicating a generally high-performing workforce. However, departments such as Sales and Finance exhibit larger concentrations of “Good” performers, suggesting opportunities for targeted training, employee engagement, and performance development initiatives.
+
+
+### Dynamic Dashboard Capabilities (Clustered Bar Chart)
+The dashboard incorporates advanced Field Parameters, interactive filtering, and DAX-driven analytics to enable flexible workforce exploration without duplicating visuals.
+
+#### Dynamic Metrics (X-Axis Selection)
+Users can dynamically switch between multiple workforce metrics:
+-	Total Employees
+-	Attrition Rate
+-	Average Employee Age
+-	Average Hourly Rate
+-	Average Work Experience
+-	Average Training Frequency
+-	Average Years Since Last Promotion
+-	Average Years With Current Manager
+
+#### Dynamic Dimensions (Y-Axis Selection)
+Users can instantly segment analysis across:
+-	Department
+-	Job Role
+-	Attrition Status
+-	Gender
+-	Marital Status
+-	Education Background
+-	Job Satisfaction
+-	Environment Satisfaction
+-	Work-Life Balance
+-	Business Travel Frequency
+This enables multidimensional workforce analysis within a compact dashboard layout.
+
+### A histogram Employee Age Distribution (Histogram)
+The histogram shows the age distribution of employees at INX Future Inc., ranging from 18 to 60 years. Most employees fall within the 30-40 age group, with an average age of around 36-37, indicating a predominantly mid-career workforce.
+
+## Technical Stack
+-	**Visualization Platform:** Power BI Desktop
+-	**Modeling & Analytics:** DAX (Field Parameters, Dynamic KPIs, Attrition Measures)
+-	**Data Transformation:** Power Query
+-	**Analytical Techniques:** Workforce Segmentation, Attrition Analysis, Satisfaction Correlation Analysis, Dynamic Filtering & Drilldowns
+  
+## Data Source
+The analysis is based on the INX Future Inc. Employee Performance Dataset.
+
+**Source:** (INX Future Inc. Employee Performance Dataset)[http://data.iabac.org/exam/p2/data/INX_Future_Inc_Employee_Performance_CDS_Project2_Data_V1.8.xls] 
+
+</details>
+
+![image alt]()
+
+
+
 
 
