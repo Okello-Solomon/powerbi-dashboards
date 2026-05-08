@@ -956,7 +956,9 @@ In addition, the dashboard provides drill-down capabilities, enabling users to m
 ## Project Overview
 
 This interactive Power BI dashboard provides a data-driven analysis of employee performance, attrition, satisfaction, and workforce stability using the INX Future Inc. Employee Performance dataset. The project aims to help HR leaders and decision-makers identify key factors affecting productivity, retention, employee engagement, and organizational performance.
+
 The dashboard delivers actionable insights into performance bottlenecks, attrition risk, promotion gaps, and workplace satisfaction through interactive visual analytics and workforce segmentation. INX Future Inc. has a workforce of 1,200 employees across 6 departments, with an average employee age of 36.92 years and 11.33 years of work experience.
+
 The analysis highlights emerging organizational challenges related to employee retention, promotion stagnation, and maintaining high-performing talent, all of which directly impact productivity, service delivery, and client satisfaction.
 
 <details>
