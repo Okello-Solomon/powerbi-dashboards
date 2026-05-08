@@ -1066,7 +1066,7 @@ The analysis is based on the INX Future Inc. Employee Performance Dataset.
 ![image alt](https://github.com/Okello-Solomon/powerbi-dashboards/blob/718157328313db4e41e884fc57b085279ffff34c/Employee%20Performance%20Analysis/Dashboard%201.png)
 
 
-![image alt](https://github.com/Okello-Solomon/powerbi-dashboards/blob/718157328313db4e41e884fc57b085279ffff34c/Employee%20Performance%20Analysis/Dashboard%201.png)
+![image alt](https://github.com/Okello-Solomon/powerbi-dashboards/blob/49cacd25a12bf2223543ed6cab76cc528b24d5cb/Employee%20Performance%20Analysis/Dashboard%202.png)
 
 
 
