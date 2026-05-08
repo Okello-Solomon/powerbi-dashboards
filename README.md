@@ -1050,6 +1050,8 @@ This enables multidimensional workforce analysis within a compact dashboard layo
 ### A histogram Employee Age Distribution (Histogram)
 The histogram shows the age distribution of employees at INX Future Inc., ranging from 18 to 60 years. Most employees fall within the 30-40 age group, with an average age of around 36-37, indicating a predominantly mid-career workforce.
 
+The distribution is slightly right-skewed, meaning there are fewer older employees as age increases.
+
 ## Technical Stack
 -	**Visualization Platform:** Power BI Desktop
 -	**Modeling & Analytics:** DAX (Field Parameters, Dynamic KPIs, Attrition Measures)
