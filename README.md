@@ -1100,7 +1100,9 @@ These metrics provide the baseline operational context for understanding tire be
 -	No Pit Stop: 351,759 laps (80.1%)
 -	Pit Stop: 87,381 laps (19.9%)
 -	Total Records: 439,140 rows
+  
 The dataset exhibits a strong class imbalance, with pit-entry scenarios occurring significantly less frequently than normal racing laps.
+
 ## Next-Lap Pit Decisions by Tire Compound (Treemap)
 This section explores how pit decisions vary across different tire compounds and how tire durability influences race strategy.
 **Tire Compound Distribution**
@@ -1108,16 +1110,23 @@ This section explores how pit decisions vary across different tire compounds and
 -	MEDIUM Compound: 21,353 pit stops (24.4%)
 -	SOFT Compound: 7,496 pit stops (8.6%)
 -	INTERMEDIATE Compound: 2,647 pit stops (3.1%)
+  
 **Key Insights**
+
 HARD tires dominate pit stops (63.9%) due to long stints and higher degradation over time. MEDIUMs (24.4%) support balanced race strategies, while SOFTs (8.6%) are used for short, aggressive stints. INTERMEDIATEs (3.1%) appear mainly in wet conditions.
 Overall, pit behavior is driven by tire durability, degradation, and weather conditions.
+
 ## Next-Lap Pit Decisions Over Race Progression (Line Graph)
 This visualization tracks the frequency of upcoming pit decisions across race laps using Lap Number.
+
 **Visualization Parameters**
 -	X-Axis: Lap Number
 -	Y-Axis: Pit Next Lap Count
+  
 The chart reveals clear strategic pit windows concentrated around specific race phases.
+
 **Key Insights**
+
 Pit stops are concentrated in specific lap windows, mainly mid-race when tire degradation and strategy shifts occur. Early laps (1-5) see minimal stops, while late-race pits decline due to limited time gains.
 Smaller spikes outside these windows are driven by safety cars, weather changes, and race incidents that temporarily reshape strategy.
 
@@ -1126,7 +1135,9 @@ This scatter visualization examines the relationship between tire age (TyreLife)
 **Visualization Parameters**
 -	X-Axis: Tyre Life
 -	Y-Axis: Pit Next Lap Count
+  
 **Key Insights**
+
 Pit stops peak between 10-25 laps of tire life, which represents the optimal strategic window. Very fresh tires show minimal pit activity, while very old tires see declining pit density due to performance limits.
 Overall, tire degradation is a key driver of pit timing decisions.
 
@@ -1137,7 +1148,9 @@ Seasonal Distribution
 -	2025: 26,418 pit stops (30.23%)
 -	2022: 22,117 pit stops (25.31%)
 -	2023: 1,308 pit stops (1.50%)
+  
 **Key Insights**
+
 2024 records the highest pit decision activity, while 2023 shows unusually low pit stop counts.
 Overall, seasonal differences reflect changes in tire behavior, race conditions, and team strategy execution.
 
@@ -1147,7 +1160,9 @@ This area chart visualizes how pit-entry behavior evolves throughout race distan
 -	X-Axis: Lap Number
 -	Y-Axis: Pit Next Lap Count
 -	Legend: Season (2022-2025)
+  
 **Key Insights**
+
 Pit windows stay consistent across seasons, with peaks clustering around similar lap ranges driven by tire degradation. Smaller variations are mainly due to race interruptions and changing conditions.
 Overall, pit timing patterns are stable but slightly influenced by seasonal and race-specific factors.
 ## Data Source
