@@ -1071,5 +1071,11 @@ The analysis is based on the INX Future Inc. Employee Performance Dataset.
 ![image alt](https://github.com/Okello-Solomon/powerbi-dashboards/blob/bc96abba27c3a9d7da5044da06763b8f1958df74/Employee%20Performance%20Analysis/Dashboard%202..png)
 
 
+#  11. Interactive Formula 1 Race Dashboard
+
+![image alt](https://github.com/Okello-Solomon/powerbi-dashboards/blob/7d0ae045e51f02e9db9b4bb25ffe2cb4189f783b/Formula%201%20Pit%20Stop%20Dashboard/Dashboard%201.png)
+
+
+![image alt](https://github.com/Okello-Solomon/powerbi-dashboards/blob/7d0ae045e51f02e9db9b4bb25ffe2cb4189f783b/Formula%201%20Pit%20Stop%20Dashboard/Dashboard%202.png)
 
 
