@@ -1071,7 +1071,90 @@ The analysis is based on the INX Future Inc. Employee Performance Dataset.
 ![image alt](https://github.com/Okello-Solomon/powerbi-dashboards/blob/bc96abba27c3a9d7da5044da06763b8f1958df74/Employee%20Performance%20Analysis/Dashboard%202..png)
 
 
-#  11. Interactive Formula 1 Race Dashboard
+#  11. Interactive Formula 1 Decision Analysis Dashboard
+## Project Overview
+This project analyzes Formula 1 telemetry and race management data to explore the factors influencing next-lap pit decisions (PitNextLap). Using interactive Power BI visualizations, the dashboard examines how tire degradation, lap progression, race conditions, and seasonal trends impact pit timing across multiple F1 seasons.
+The dataset contains over 439,000 telemetry records covering multiple circuits, drivers, tire compounds, and racing seasons, enabling large-scale exploratory analysis and predictive modeling.
+
+<details>
+<summary><strong> View Project Details</strong></summary>
+  
+## Executive Summary & High-Level KPIs
+The dashboard begins with a high-level overview of the telemetry environment and operational race metrics.
+  
+## KPI
+-	Total Laps Analyzed: 439,140
+-	Unique Grand Prix Events: 26 circuits
+-	Driver Pool: 887 unique driver profiles
+-	Global Average Lap Time: 90.95 seconds
+-	Average Tyre Life: 14.16 laps
+-	Average Laps per Stint: 1.79
+-	Current Pit Stop Rate: 14%
+-	Pit Next Lap Rate: 20%
+  
+These metrics provide the baseline operational context for understanding tire behavior, race progression, and pit timing dynamics across the dataset.
+## Pit Stop vs No Pit Stop Distribution (Donut Chart)
+  
+**Distribution Overview**
+
+-	No Pit Stop: 351,759 laps (80.1%)
+-	Pit Stop: 87,381 laps (19.9%)
+-	Total Records: 439,140 rows
+The dataset exhibits a strong class imbalance, with pit-entry scenarios occurring significantly less frequently than normal racing laps.
+## Next-Lap Pit Decisions by Tire Compound (Treemap)
+This section explores how pit decisions vary across different tire compounds and how tire durability influences race strategy.
+**Tire Compound Distribution**
+-	HARD Compound: 55,851 pit stops (63.9%)
+-	MEDIUM Compound: 21,353 pit stops (24.4%)
+-	SOFT Compound: 7,496 pit stops (8.6%)
+-	INTERMEDIATE Compound: 2,647 pit stops (3.1%)
+**Key Insights**
+HARD tires dominate pit stops (63.9%) due to long stints and higher degradation over time. MEDIUMs (24.4%) support balanced race strategies, while SOFTs (8.6%) are used for short, aggressive stints. INTERMEDIATEs (3.1%) appear mainly in wet conditions.
+Overall, pit behavior is driven by tire durability, degradation, and weather conditions.
+## Next-Lap Pit Decisions Over Race Progression (Line Graph)
+This visualization tracks the frequency of upcoming pit decisions across race laps using Lap Number.
+**Visualization Parameters**
+-	X-Axis: Lap Number
+-	Y-Axis: Pit Next Lap Count
+The chart reveals clear strategic pit windows concentrated around specific race phases.
+**Key Insights**
+Pit stops are concentrated in specific lap windows, mainly mid-race when tire degradation and strategy shifts occur. Early laps (1-5) see minimal stops, while late-race pits decline due to limited time gains.
+Smaller spikes outside these windows are driven by safety cars, weather changes, and race incidents that temporarily reshape strategy.
+
+## Pit Decisions vs Tyre Life (Scatter Plot)
+This scatter visualization examines the relationship between tire age (TyreLife) and next-lap pit decisions.
+**Visualization Parameters**
+-	X-Axis: Tyre Life
+-	Y-Axis: Pit Next Lap Count
+**Key Insights**
+Pit stops peak between 10-25 laps of tire life, which represents the optimal strategic window. Very fresh tires show minimal pit activity, while very old tires see declining pit density due to performance limits.
+Overall, tire degradation is a key driver of pit timing decisions.
+
+## Seasonal Pit Decision Trends (Donut Chart)
+This section analyzes how pit decision activity varies across different Formula 1 seasons.
+Seasonal Distribution
+-	2024: 37,538 pit stops (42.96%)
+-	2025: 26,418 pit stops (30.23%)
+-	2022: 22,117 pit stops (25.31%)
+-	2023: 1,308 pit stops (1.50%)
+**Key Insights**
+2024 records the highest pit decision activity, while 2023 shows unusually low pit stop counts.
+Overall, seasonal differences reflect changes in tire behavior, race conditions, and team strategy execution.
+
+## Pit Decisions Over Laps by Season (Area Chart)
+This area chart visualizes how pit-entry behavior evolves throughout race distance across multiple seasons.
+**Visualization Parameters**
+-	X-Axis: Lap Number
+-	Y-Axis: Pit Next Lap Count
+-	Legend: Season (2022-2025)
+**Key Insights**
+Pit windows stay consistent across seasons, with peaks clustering around similar lap ranges driven by tire degradation. Smaller variations are mainly due to race interruptions and changing conditions.
+Overall, pit timing patterns are stable but slightly influenced by seasonal and race-specific factors.
+## Data Source
+The analysis is based on a publicly available Kaggle Playground Series dataset inspired by Formula 1 strategy data.
+**Source:** [F1 Strategy Playground Series Dataset on Kaggle]( https://www.kaggle.com/competitions/playground-series-s6e5/data)
+
+</details>
 
 ![image alt](https://github.com/Okello-Solomon/powerbi-dashboards/blob/7d0ae045e51f02e9db9b4bb25ffe2cb4189f783b/Formula%201%20Pit%20Stop%20Dashboard/Dashboard%201.png)
 
